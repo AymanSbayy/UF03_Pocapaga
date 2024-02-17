@@ -1,0 +1,207 @@
+.container {
+    position: absolute;
+    background-color: #272626;
+    height: 800px;
+    width: 100%;
+    left: 15%; /* Centra el contenedor ajustando el valor de left */
+    top: 90%; /* Ajusta según necesites */
+    background-image: url('../Imatges/patternsvg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+svg {
+    fill: white;
+}
+
+
+h1 {
+    
+    position: absolute; 
+    top: 70%; 
+    left: 22%; 
+    transform: translate(-50%, -50%); 
+    color: #e9e9e9; 
+    text-align: left; 
+    z-index: 2; 
+    color: rgb(255, 255, 255) !important;
+    font-size: 55px !important;
+    font-weight: 700 !important;; 
+    text-shadow: 6px 12px 20px rgba(0, 0, 0, 1);
+    
+}
+
+.site-header {
+    width: 98%;
+    position: fixed;
+    margin-left: 12px;
+    margin-top: 20px;
+    z-index: 800;
+
+}
+
+.site-menu .link {
+    text-decoration: none;
+    color: #000;
+}
+
+.noStyle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link {
+    display: block; 
+    text-decoration: none !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    text-shadow: 6px 4px 30px rgba(0, 0, 0, 1);
+    padding: 10px 15px;
+    transition: color 0.3s ease; 
+    min-width: 90px;
+}
+
+.link:hover, .link:focus {
+    background-color: #67795b7c;
+    color: #fff !important; 
+    transform: scale(1.05);
+    border-radius: 5px; 
+}
+
+
+.menu-item:hover, .menu-item:focus {
+    background-color: transparent; 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    line-height: 100%;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+html, body {
+    font-family: "ff-good-web-pro","Arial",sans-serif;
+    font-size: 16px;
+
+}
+
+
+.site-scroll--inactive .site-menu .menu-item {
+    transition: right ease .3s .3s, top ease .3s;
+}
+.site-menu .menu-item:nth-child(1) {
+    top: 0px;
+}
+.site-menu .menu-item {
+    position: absolute;
+    right: 0;
+}
+.site-scroll--inactive .site-menu .menu-item {
+    transition: right ease .3s .3s, top ease .3s;
+}
+.site-menu .menu-item.current-menu-item {
+    right: 60px;
+}
+.site-menu .menu-item:nth-child(2) {
+    top: 40px;
+}
+.site-menu .menu-item {
+    position: absolute;
+    right: 0;
+}
+
+.site-scroll--inactive .site-menu .menu-item {
+    transition: right ease .3s .3s, top ease .3s;
+}
+.site-menu .menu-item:nth-child(3) {
+    top: 80px;
+}
+.site-menu .menu-item {
+    position: absolute;
+    right: 0;
+}
+
+.site-scroll--inactive .site-menu .menu-item {
+    transition: right ease .3s .3s, top ease .3s;
+}
+
+.site-menu .menu-item:nth-child(4) {
+    top: 120px;
+}
+.site-menu .menu-item {
+    position: absolute;
+    right: 0;
+}
+
+.site-scroll--inactive .site-menu .menu-item {
+    transition: right ease .3s .3s, top ease .3s;
+}
+.site-menu .menu-item:nth-child(5) {
+    top: 160px;
+}
+.site-menu .menu-item {
+    position: absolute;
+    right: 0;
+}
+
+.toggle-menu {
+    width: 40px;
+    height: 26px;
+    display: block;
+    position: relative;
+}
+
+.site-header-light .site-header .toggle-menu__line {
+    background: #e6e6e6;
+}
+.site-scroll--inactive .toggle-menu__line {
+    transition: top ease .3s, transform .4s ease, background-color ease .4s;
+}
+.toggle-menu__line:nth-child(2) {
+    top: 6px;
+}
+.toggle-menu__line {
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    background: #000;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+.header #bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../Imatges/oficina2webp.webp);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
